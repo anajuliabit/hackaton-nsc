@@ -1,0 +1,73 @@
+  
+{
+  "name": "WABiz Developer",
+  "values": [
+    {
+      "key": "AdminAuthToken",
+      "value": "<valid token from login api as admin>",
+      "enabled": true
+    },
+    {
+      "key": "AdminPassword",
+      "value": "<password of whatsapp business client admin>",
+      "enabled": true
+    },
+    {
+      "key": "AdminUsername",
+      "value": "<username of whatsapp business client admin>",
+      "enabled": true
+    },
+    {
+      "key": "Base64AdminCredentials",
+      "value": "<base64(username:password)>",
+      "enabled": true
+    },
+    {
+      "key": "Base64UserCredentials",
+      "value": "<base64(username:password)>",
+      "enabled": true
+    },
+    {
+      "key": "Recipient-WA-ID",
+      "value": "<valid wa id of recipient>",
+      "type": "text",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "Test-Group-Id",
+      "value": "Test Group Id",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "Test-Media-Id",
+      "value": "Test Media Id",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "URL",
+      "value": "<valid webapp url, i.e 'https://localhost:9090'>",
+      "enabled": true
+    },
+    {
+      "key": "UserUsername",
+      "value": "<username of whatsapp business client user>",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "UserPassword",
+      "value": "<password of whatsapp business client user>",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "UserAuthToken",
+      "value": "<valid token from login api as user>",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
