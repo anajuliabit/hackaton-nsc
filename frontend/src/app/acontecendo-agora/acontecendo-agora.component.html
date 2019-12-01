@@ -1,0 +1,90 @@
+<div class="container">
+  <div class="title">
+    <h1>ACONTECENDO AGORA</h1>
+  </div>
+  <table mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="ranking">
+      <th mat-header-cell *matHeaderCellDef>RANKING</th>
+      <td mat-cell *matCellDef="let element">
+        <fa-icon
+          *ngIf="element.ranking === 1"
+          style="color: #7cc927"
+          [icon]="faArrowCircleUp"
+        ></fa-icon>
+        <fa-icon
+          *ngIf="element.ranking === 0"
+          style="color: #C83D46"
+          [icon]="faArrowCircleDown"
+        ></fa-icon>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="termosCombinados">
+      <th mat-header-cell *matHeaderCellDef>TERMOS COMBINADOS</th>
+      <td mat-cell *matCellDef="let element">
+        <div class="itens">
+          <span class="term" *ngFor="let item of element.termosCombinados">
+            {{ item }}
+          </span>
+        </div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="cor">
+      <th mat-header-cell *matHeaderCellDef>COR</th>
+      <td mat-cell *matCellDef="let element">
+        <fa-icon
+          *ngIf="element.cor === 0"
+          style="color: #DB9DA1"
+          [icon]="faCircle"
+        ></fa-icon>
+        <fa-icon
+          *ngIf="element.cor === 1"
+          style="color: #B8D19C"
+          [icon]="faCircle"
+        ></fa-icon>
+        <fa-icon
+          *ngIf="element.cor === 2"
+          style="color: #E4b386"
+          [icon]="faCircle"
+        ></fa-icon>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="numInteracoes">
+      <th mat-header-cell *matHeaderCellDef>Nº DE INTERAÇÕES</th>
+      <td mat-cell *matCellDef="let element">
+        <span class="flex-span"
+          ><strong>{{ element.numInteracoes }}</strong></span
+        >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="confiabilidade">
+      <th mat-header-cell *matHeaderCellDef>CONFIABILIDADE</th>
+      <td mat-cell *matCellDef="let element">
+        <span class="flex-span"
+          ><strong>{{ element.confiabilidade }}</strong></span
+        >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="vejamais">
+      <th mat-header-cell *matHeaderCellDef>CONFIABILIDADE</th>
+      <td mat-cell *matCellDef="let element">
+        <span class="vejamais"><strong>VEJA MAIS</strong></span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="verificado">
+      <th mat-header-cell *matHeaderCellDef>CONTEUDO VERIFICADO</th>
+      <td mat-cell *matCellDef="let element">
+        <span class="flex-span">
+          <mat-checkbox></mat-checkbox>
+        </span>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</div>

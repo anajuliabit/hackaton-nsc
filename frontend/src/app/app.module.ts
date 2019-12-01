@@ -9,6 +9,11 @@ import { AnaliseCronologicaComponent } from "./analise-cronologica/analise-crono
 import { MenuComponent } from "./menu/menu.component";
 import { HeatmapComponent } from "./heatmap/heatmap.component";
 import { ChartsModule } from "ng2-charts";
+import { AcontecendoAgoraComponent } from "./acontecendo-agora/acontecendo-agora.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MatTableModule } from "@angular/material/table";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { MatCheckboxModule } from "@angular/material/checkbox";
 
 @NgModule({
   declarations: [
@@ -17,9 +22,18 @@ import { ChartsModule } from "ng2-charts";
     CardComponent,
     AnaliseCronologicaComponent,
     MenuComponent,
-    HeatmapComponent
+    HeatmapComponent,
+    AcontecendoAgoraComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, ChartsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ChartsModule,
+    BrowserAnimationsModule,
+    MatTableModule,
+    FontAwesomeModule,
+    MatCheckboxModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

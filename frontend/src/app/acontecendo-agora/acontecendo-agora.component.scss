@@ -1,0 +1,51 @@
+.container {
+  width: 60vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #6c6a6b;
+  height: 100px;
+  font-size: 12px;
+  font-family: "Montserrat:200";
+}
+
+.content {
+  height: 500px;
+  width: 50vw;
+}
+
+.r-item {
+  height: 20px;
+}
+
+.good {
+  color: #7cc927;
+}
+
+.term {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.itens {
+  display: flex;
+}
+
+.flex-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vejamais {
+  background-color: #7cc927;
+  border-radius: 5px;
+  padding: 7px;
+  color: #fff;
+  font-size: 12px;
+}
