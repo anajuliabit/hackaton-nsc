@@ -16,4 +16,4 @@ Este projeto foi desenvolvido durante o Hackathon da NSC 2019, cujo intuito é c
 
 ## Preview
 
-![alt text](./frontend/src/assets/preview.png);
+![alt text](./frontend/src/assets/preview.png)
