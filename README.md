@@ -1,6 +1,6 @@
-> Solução realizada no Hackathon da NSC 2019.
+# Solução realizada no Hackathon da NSC 2019.
 
-> > To do
+## To do
 
-- Responsividade
-- Sincronização do frontend com o backend
+1. Responsividade
+2. Sincronização do frontend com o backend
