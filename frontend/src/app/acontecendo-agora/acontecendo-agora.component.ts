@@ -15,7 +15,7 @@ const ELEMENT_DATA: any[] = [
   },
   {
     ranking: 0,
-    termosCombinados: ["BURACO", "ACIDENTE", "PNEU", "FLORIANÓPOLIS"],
+    termosCombinados: ["BURACO", "ACIDENTE", "PNEU", "CANASVIEIRAS"],
     cor: 1,
     numInteracoes: 223,
     confiabilidade: "68%"
@@ -26,6 +26,13 @@ const ELEMENT_DATA: any[] = [
     cor: 2,
     numInteracoes: 195,
     confiabilidade: "64%"
+  },
+  {
+    ranking: 1,
+    termosCombinados: ["ARRECADAÇÃO", "AUMENTO", "NATAL"],
+    cor: 0,
+    numInteracoes: 132,
+    confiabilidade: "49%"
   }
 ];
 

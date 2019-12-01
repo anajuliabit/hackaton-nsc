@@ -26,11 +26,19 @@
 .menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   top: 160px;
 
   button {
+    fa-icon {
+      position: absolute;
+      left: 70px;
+    }
+
+    .chalkboard {
+      left: 62px;
+    }
+
     cursor: pointer;
     color: #fff;
     font-size: 20px;
