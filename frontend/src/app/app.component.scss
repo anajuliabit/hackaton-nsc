@@ -2,9 +2,9 @@
   display: flex;
 }
 .menu {
-  height: 100vh;
-  width: 30vw;
-  background-color: black;
+  height: 130vh;
+  width: 24vw;
+  background-image: linear-gradient(to right, #294e76, #2e6f82);
 }
 
 .main {
@@ -13,4 +13,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
 }
