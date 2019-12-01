@@ -1,0 +1,32 @@
+.heat-map {
+  height: 250px;
+  background-image: url("../../assets/mapa-calor-sc.jpg");
+  margin-top: 10px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .nivel {
+    display: flex;
+    span {
+      font-size: 8px;
+      max-width: 80px;
+      margin-left: 10px;
+    }
+
+    .barra {
+      margin: 0 15px 0 10x;
+      width: 280px;
+      height: 20px;
+      background-image: linear-gradient(
+        to right,
+        #b6f19b,
+        rgb(255, 251, 0),
+        #ff0000
+      );
+    }
+  }
+}

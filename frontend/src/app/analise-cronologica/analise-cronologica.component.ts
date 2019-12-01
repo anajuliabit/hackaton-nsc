@@ -1,10 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import {
-  ChartDataSets,
-  ChartOptions,
-  ChartLegendLabelOptions,
-  ChartLegendOptions
-} from "chart.js";
+import { ChartDataSets, ChartOptions } from "chart.js";
 import { Label, Color } from "ng2-charts";
 
 @Component({
@@ -13,6 +8,8 @@ import { Label, Color } from "ng2-charts";
   styleUrls: ["./analise-cronologica.component.scss"]
 })
 export class AnaliseCronologicaComponent implements OnInit {
+  title: "Análise Cronológica";
+
   public lineChartData: ChartDataSets[] = [
     {
       data: [30, 39, 45, 40, 35, 30, 39, 45, 60, 62, 65, 70],

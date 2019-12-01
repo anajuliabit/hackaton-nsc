@@ -1,0 +1,59 @@
+.image {
+  position: relative;
+  left: 95px;
+  top: 80px;
+  border-radius: 70px;
+  border-style: unset;
+  width: 150px;
+  height: 150px;
+  background-image: url("../../assets/user2.png");
+}
+
+.description {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+
+  strong {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 160px;
+
+  button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+    width: 100%;
+
+    :hover {
+      font-size: 22px;
+    }
+  }
+}
+
+.logo {
+  position: relative;
+  left: 115px;
+  top: 250px;
+  width: 100px;
+  height: 100px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

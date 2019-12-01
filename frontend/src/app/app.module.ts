@@ -6,7 +6,6 @@ import { AppComponent } from "./app.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { CardComponent } from "./card/card.component";
 import { AnaliseCronologicaComponent } from "./analise-cronologica/analise-cronologica.component";
-import { MenuComponent } from "./menu/menu.component";
 import { HeatmapComponent } from "./heatmap/heatmap.component";
 import { ChartsModule } from "ng2-charts";
 import { AcontecendoAgoraComponent } from "./acontecendo-agora/acontecendo-agora.component";
@@ -14,6 +13,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatTableModule } from "@angular/material/table";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { MatCheckboxModule } from "@angular/material/checkbox";
+import { TitleComponent } from "./title/title.component";
+import { MenuComponent } from "./menu/menu.component";
 
 @NgModule({
   declarations: [
@@ -21,9 +22,10 @@ import { MatCheckboxModule } from "@angular/material/checkbox";
     DashboardComponent,
     CardComponent,
     AnaliseCronologicaComponent,
-    MenuComponent,
     HeatmapComponent,
-    AcontecendoAgoraComponent
+    AcontecendoAgoraComponent,
+    TitleComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

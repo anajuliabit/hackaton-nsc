@@ -15,7 +15,7 @@ const ELEMENT_DATA: any[] = [
   },
   {
     ranking: 0,
-    termosCombinados: ["BURACO", "ACIDENTE", "PNEU", "RODA"],
+    termosCombinados: ["BURACO", "ACIDENTE", "PNEU", "FLORIANÓPOLIS"],
     cor: 1,
     numInteracoes: 223,
     confiabilidade: "68%"
